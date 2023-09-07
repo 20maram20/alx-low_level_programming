@@ -1,6 +1,6 @@
 #include <stdio.h>
 /*
- *main-entrypoint
+ *Main:entry point
  *
  *printf function
  *
