@@ -1,4 +1,5 @@
 #include "main.h"
+#include "unistd.h"
 /**
 *main - is the entry point for the program
 *Description: Prints _putchar using putchar prototype
@@ -7,10 +8,9 @@
 int main(void)
 {
 	char str[] = "_putchar";
-	int ch;
 
-	for (ch = 0; ch < 8; ch++)
-		_putchar(str[ch]);
+	for (int ch = 0; ch < 8; ch++)
+	_putchar(str[ch]);
 	_putchar('\n');
 
 	return (0);
